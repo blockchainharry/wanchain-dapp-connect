@@ -18,6 +18,7 @@ wandapp = new WanDapp();
 #### WanMask (wanchain)
 ```
 wandapp.wanmask // wan3 object
+wandapp.wanmask.currentProvider.isWanMask // true
 wandapp.wallet.address
 
 wandapp.wan3.eth.getAccounts().then(function(act){
@@ -29,6 +30,7 @@ console.log('active WanMask account',act)
 #### MetaMask (ethereum)
 ```
 wandapp.metamask // web3 object
+wandapp.metamask.currentProvider.isMetaMask // true
 wandapp.wallet.ethAddress
 
 wandapp.web3.eth.getAccounts().then(function(act){
