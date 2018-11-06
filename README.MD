@@ -21,8 +21,15 @@ wandapp.wanmask // wan3 object
 wandapp.wanmask.currentProvider.isWanMask // true
 wandapp.wallet.address
 
+
+// client
+wandapp.wanmask.eth.getAccounts().then(function(act){
+console.log('active MetaMask account',act)
+});
+
+// server
 wandapp.wan3.eth.getAccounts().then(function(act){
-console.log('active WanMask account',act)
+console.log('active MetaMask account',act)
 });
 
 ```
@@ -33,6 +40,12 @@ wandapp.metamask // web3 object
 wandapp.metamask.currentProvider.isMetaMask // true
 wandapp.wallet.ethAddress
 
+// client
+wandapp.metamask.eth.getAccounts().then(function(act){
+console.log('active MetaMask account',act)
+});
+
+// server
 wandapp.web3.eth.getAccounts().then(function(act){
 console.log('active MetaMask account',act)
 });
