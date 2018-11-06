@@ -2,12 +2,6 @@
 
 Wanchain + Ethereum blockchain utility package to be used with WanMask and MetaMask (from client). From the server, you can also interact with both blockchains.
 
-### Install
-
-
-// node
-npm install wanchain-dapp-connect
-
 
 ### Prerequisites
 
@@ -27,19 +21,18 @@ wandapp.wanmask // wan3 object
 wandapp.wallet.address
 
 wandapp.wan3.eth.getAccounts().then(function(act){
-console.log('active wanchain account',act)
+console.log('active WanMask account',act)
 });
 
 ```
 
 #### MetaMask (ethereum)
 ```
-wandapp.wanmask // wan3 object
+wandapp.metamask // web3 object
 wandapp.wallet.ethAddress
 
-
 wandapp.web3.eth.getAccounts().then(function(act){
-console.log('active meta mask account',act)
+console.log('active MetaMask account',act)
 });
 
 ```
