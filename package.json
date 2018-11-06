@@ -1,8 +1,8 @@
 {
-  "_from": "simple-exchange",
+  "_from": "wanchain-dapp-connect",
   "_inBundle": false,
   "_integrity": "sha512-gPbd1IA2Imhzh0KaECEZbBiP1ZLvPlWQ1qit5cHUUE6Fsi/v99P3ChkKkNQTNHrjzNBOBBIqRl9DtJPQwMa4Xg==",
-  "_location": "/simple-exchange",
+  "_location": "/wanchain-dapp-connect",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
@@ -20,11 +20,11 @@
   ],
   "_resolved": "https://registry.npmjs.org/simple-exchange/-/simple-exchange-0.0.7.tgz",
   "_shasum": "8b3470c517455adc0ce653a44e85e26304c4d623",
-  "_spec": "simple-exchange",
+  "_spec": "wanchain-dapp-exchange",
   "_where": "/Users/harryward/wanChain/wanDevApps/wanDEX",
   "author": "wanchainharry",
   "bugs": {
-    "url": "https://github.com/wanchainstaging/simple-exchange/issues"
+    "url": "https://github.com/wanchainharry/wanchain-dapp-connect/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -48,27 +48,28 @@
     "web3": "^1.0.0-beta.36"
   },
   "deprecated": false,
-  "description": "<!--### Install-->",
-  "homepage": "https://github.com/wanchainstaging/simple-exchange#readme",
+  "description": "Wanchain + Ethereum blockchain utility package to be used with WanMask and MetaMask",
+  "homepage": "https://github.com/wanchainharry/wanchain-dapp-connect#readme",
   "keywords": [
     "wanchain",
     "wrc20",
     "decentralized",
-    "exchange"
+    "exchange",
+    "dapp"
   ],
   "license": "ISC",
   "main": "index.js",
   "name": "wanchain-dapp-connect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wanchainstaging/wan-exchange.git"
+    "url": "git+https://github.com/wanchainharry/wanchain-dapp-connect.git"
   },
   "scripts": {
     "start": "node index.js",
     "test": "mocha",
     "lint": "eslint ./src"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",

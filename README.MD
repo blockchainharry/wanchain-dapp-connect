@@ -4,10 +4,10 @@ Wanchain + Ethereum blockchain utility package to be used with WanMask and MetaM
 
 ### Install
 
-```
+
+// node
 npm install wanchain-dapp-connect
 
-```
 
 ### Prerequisites
 
@@ -18,6 +18,29 @@ npm install wanchain-dapp-connect
 ```
 const WanDapp = require('wanchain-dapp-connect');
 wandapp = new WanDapp();
+
+```
+
+#### WanMask (wanchain)
+```
+wandapp.wanmask // wan3 object
+wandapp.wallet.address
+
+wandapp.wan3.eth.getAccounts().then(function(act){
+console.log('active wanchain account',act)
+});
+
+```
+
+#### MetaMask (ethereum)
+```
+wandapp.wanmask // wan3 object
+wandapp.wallet.ethAddress
+
+
+wandapp.web3.eth.getAccounts().then(function(act){
+console.log('active meta mask account',act)
+});
 
 ```
 

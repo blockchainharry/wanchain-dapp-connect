@@ -1,4 +1,4 @@
-const wandex = require('./src/exchange/wanxc');
+const wandex = require('./src/wanxc');
 
 wandex.init();
 
