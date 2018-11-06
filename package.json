@@ -7,9 +7,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "simple-exchange",
-    "name": "simple-exchange",
-    "escapedName": "simple-exchange",
+    "raw": "wanchain-dapp-connect",
+    "name": "wanchain-dapp-connect",
+    "escapedName": "wanchain-dapp-connect",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -69,7 +69,7 @@
     "test": "mocha",
     "lint": "eslint ./src"
   },
-  "version": "1.0.1",
+  "version": "1.0.3",
   "devDependencies": {
     "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",

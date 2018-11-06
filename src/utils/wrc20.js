@@ -9,7 +9,7 @@ const Web3 = require('web3');
 const isClient = require('isclient');
 const _ = require('underscore');
 const config = require('./config');
-const tokenAbi = require('../../../abi/WRC20.json').abi;
+const tokenAbi = require('../../abi/WRC20.json').abi;
 
 const wan3server = new Web3(new Web3.providers.HttpProvider(config.wanRPC));
 const web3server = new Web3(new Web3.providers.HttpProvider(config.ethRPC));
